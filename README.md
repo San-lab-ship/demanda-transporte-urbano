@@ -1,21 +1,23 @@
-# demanda-transporte-urbano
+# prediccion-demanda-transporte-urbano
 Predicción de demanda de transporte urbano usando ML, SQL y PySpark
 # Predicción de Demanda de Transporte Urbano
 
 ## Objetivo
-Predecir la demanda de pasajeros en rutas urbanas para optimizar flotas, evitando sobrecarga o rutas vacías. Este proyecto se enfoca en ciudades colombianas y considera variables como clima, horarios y eventos locales.
+Predecir la demanda de pasajeros en rutas urbanas colombianas para optimizar la asignación de flotas, evitando tanto la sobrecarga de vehículos como los trayectos con baja ocupación.  
+El modelo considera factores como condiciones climáticas, horarios, patrones históricos de viaje y eventos locales que afectan la movilidad urbana.
 
 ## Descripción del Problema
-Conocer la demanda de transporte urbano permite planear rutas, asignar buses y personal, y mejorar la experiencia de los usuarios. El proyecto utiliza datos históricos de pasajeros y eventos relevantes para construir un modelo predictivo robusto.
+Anticipar la demanda de transporte urbano es fundamental para planificar operaciones eficientes, reducir costos y mejorar la experiencia de los usuarios.  
+Este proyecto emplea datos históricos de pasajeros combinados con variables externas (clima y eventos) para construir un modelo predictivo de alta precisión, capaz de apoyar la toma de decisiones en empresas de transporte público.
 
 ## Arquitectura del Sistema
-Se propone una arquitectura basada en:
-- Extracción y limpieza de datos (SQL + PySpark)
-- Ingeniería de características (lags, medias móviles, variables de eventos)
-- Entrenamiento de modelos ML (Random Forest, XGBoost, LSTM)
-- Visualizaciones interactivas (Plotly, Folium)
+La solución se basa en un pipeline modular de analítica y machine learning que integra:
 
-![Diagrama](arquitectura/diagrama_architectura.png)
+- **Extracción y limpieza de datos:** SQL + PySpark para procesamiento distribuido.  
+- **Ingeniería de características:** generación de variables derivadas (lags, medias móviles, indicadores de eventos).  
+- **Entrenamiento de modelos predictivos:** Random Forest, XGBoost y LSTM para estimar la demanda diaria.  
+- **Evaluación y validación:** métricas RMSE, MAE y R² para medir el desempeño del modelo.  
+- **Visualizaciones interactivas:** dashboards dinámicos con Plotly y mapas geoespaciales con Folium.
 
 ## Metodología
 1. **Carga y Exploración de Datos**
@@ -42,17 +44,70 @@ Se propone una arquitectura basada en:
    - Identificación de rutas o fechas con errores altos
    - Validación de robustez del modelo
 
+## Datos Iniciales del Proyecto
+| fecha      | ruta        | pasajeros | clima   | evento |
+| ---------- | ----------- | --------- | ------- | ------ |
+| 2024-01-01 | Ruta Norte  | 269       | Nublado | 0      |
+| 2024-01-01 | Ruta Sur    | 234       | Nublado | 0      |
+| 2024-01-01 | Ruta Centro | 257       | Nublado | 0      |
+| 2024-01-01 | Ruta Este   | 203       | Soleado | 0      |
+| 2024-01-01 | Ruta Oeste  | 230       | Soleado | 0      |
+
+
 ## Visualizaciones
-- Gráficos de demanda por hora, día y ruta
-- Dashboard interactivo con predicción vs. realidad
-- Link de ejemplo: `results/dashboard_interactivo.html`
+- Demanda Real vs Predicha (muestra de 200 días)
+- Top 10 Variables Más Relevantes para la Predicción
+- Tendencia Mensual de Demanda Promedio
+- Mapa Interactivo de Demanda por Ruta y Zona
+
+  <img width="1600" height="900" alt="image" src="https://github.com/user-attachments/assets/0bfc74cc-7409-4f33-8d99-8bcfdcef9752" />
+
+
+
+
+
 
 ## Tecnologías Utilizadas
-- Python 3.10
-- Pandas, NumPy
-- Scikit-learn, XGBoost, PySpark
-- Plotly, Folium
-- Google Colab / Jupyter Notebook
+🐍 Lenguaje y Entorno
+
+Python 3.10
+
+Jupyter Notebook / Google Colab
+
+📊 Análisis y Procesamiento de Datos
+
+Pandas
+
+NumPy
+
+PySpark
+
+SQL
+
+🤖 Modelado Predictivo (Machine Learning)
+
+Scikit-learn
+
+XGBoost
+
+RandomForestRegressor
+
+Joblib
+
+🌍 Visualización y Arquitectura
+
+Plotly
+
+Folium
+
+Draw.io
+
+🧩 Control y Gestión del Proyecto
+
+Git / GitHub
 
 ## Resultados y Conclusiones
-El modelo permite anticipar la demanda de pasajeros en diferentes horarios y rutas, mejorando la planificación de flotas y reduciendo costos operativos.
+✔️ El modelo Random Forest alcanzó un R² de 0.93, con errores promedio menores a 50 pasajeros.
+✔️ Las variables más influyentes fueron: día de la semana, tendencia temporal y condiciones climáticas.
+✔️ Los dashboards interactivos permiten explorar demanda por ruta, mes y clima.
+✔️ El mapa Folium visualiza las zonas con mayor demanda de transporte urbano.
