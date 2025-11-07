@@ -54,14 +54,5 @@ Se propone una arquitectura basada en:
 - Plotly, Folium
 - Google Colab / Jupyter Notebook
 
-## Cómo Ejecutar el Proyecto
-1. Clonar el repositorio:  
-   `git clone https://github.com/usuario/demanda-transporte-urbano.git`
-2. Instalar dependencias:  
-   `pip install -r requirements.txt`
-3. Ejecutar pipeline completo:  
-   `python src/main.py`  
-   o abrir `notebooks/notebook_principal.ipynb` en Google Colab.
-
 ## Resultados y Conclusiones
 El modelo permite anticipar la demanda de pasajeros en diferentes horarios y rutas, mejorando la planificación de flotas y reduciendo costos operativos.
