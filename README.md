@@ -62,8 +62,11 @@ La solución se basa en un pipeline modular de analítica y machine learning que
 
 <img width="1600" height="900" alt="image" src="https://github.com/user-attachments/assets/0bfc74cc-7409-4f33-8d99-8bcfdcef9752" />
 
-<img width="1600" height="900" alt="Top 10 Variables Más Relevantes para la Predicción" src="https://github.com/user-attachments/assets/0bfc74cc-7409-4f33-8d99-8bcfdcef9752" />
+<img width="1600" height="900" alt="Top 10 Variables Más Relevantes para la Predicción" src="https://github.com/user-attachments/assets/AQUI-LINK-DE-GITHUB-2" />
 
+<img width="1600" height="900" alt="Tendencia Mensual de Demanda Promedio" src="https://github.com/user-attachments/assets/AQUI-LINK-DE-GITHUB-3" />
+
+<img width="1600" height="900" alt="Mapa Interactivo de Demanda por Ciudad y Ruta" src="https://github.com/user-attachments/assets/AQUI-LINK-DE-GITHUB-4" />
 
 
 ## Tecnologías Utilizadas
