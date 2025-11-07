@@ -60,11 +60,13 @@ La solución se basa en un pipeline modular de analítica y machine learning que
 - Tendencia Mensual de Demanda Promedio
 - Mapa Interactivo de Demanda por Ruta y Zona
 
-  <img width="1600" height="900" alt="image" src="https://github.com/user-attachments/assets/0bfc74cc-7409-4f33-8d99-8bcfdcef9752" />
+<img width="1600" height="900" alt="image" src="https://github.com/user-attachments/assets/0bfc74cc-7409-4f33-8d99-8bcfdcef9752" />
 
+<img width="1600" height="900" alt="image" src="https://github.com/user-attachments/assets/0bfc74cc-7409-4f33-8d99-8bcfdcef9752" />
 
+<img width="1600" height="900" alt="image" src="https://github.com/user-attachments/assets/0bfc74cc-7409-4f33-8d99-8bcfdcef9752" />
 
-
+<img width="1600" height="900" alt="image" src="https://github.com/user-attachments/assets/0bfc74cc-7409-4f33-8d99-8bcfdcef9752" />
 
 
 ## Tecnologías Utilizadas
