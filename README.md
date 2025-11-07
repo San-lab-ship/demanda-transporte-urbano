@@ -1,4 +1,4 @@
-# prediccion-demanda-transporte-urbano
+[Predecir la demanda de pasajeros en rutas urbanas - Colab.html](https://github.com/user-attachments/files/23427018/Predecir.la.demanda.de.pasajeros.en.rutas.urbanas.-.Colab.html)# prediccion-demanda-transporte-urbano
 Predicción de demanda de transporte urbano usando ML, SQL y PySpark
 # Predicción de Demanda de Transporte Urbano
 
@@ -62,11 +62,9 @@ La solución se basa en un pipeline modular de analítica y machine learning que
 
 <img width="1600" height="900" alt="image" src="https://github.com/user-attachments/assets/0bfc74cc-7409-4f33-8d99-8bcfdcef9752" />
 
-<img width="1600" height="900" alt="Top 10 Variables Más Relevantes para la Predicción" src="https://github.com/user-attachments/assets/AQUI-LINK-DE-GITHUB-2" />
+<img width="1404" height="525" alt="newplot" src="https://github.com/user-attachments/assets/7019da26-dcae-4cbe-8d42-e8fab83729eb" />
 
-<img width="1600" height="900" alt="Tendencia Mensual de Demanda Promedio" src="https://github.com/user-attachments/assets/AQUI-LINK-DE-GITHUB-3" />
 
-<img width="1600" height="900" alt="Mapa Interactivo de Demanda por Ciudad y Ruta" src="https://github.com/user-attachments/assets/AQUI-LINK-DE-GITHUB-4" />
 
 
 ## Tecnologías Utilizadas
