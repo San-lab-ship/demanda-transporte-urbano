@@ -62,8 +62,11 @@ La solución se basa en un pipeline modular de analítica y machine learning que
 
 <img width="1600" height="900" alt="image" src="https://github.com/user-attachments/assets/0bfc74cc-7409-4f33-8d99-8bcfdcef9752" />
 
+<img width="1404" height="525" alt="newplot (2)" src="https://github.com/user-attachments/assets/1ea3eab5-92f9-4df6-a592-dfe5916baa6c" />
+
 <img width="1404" height="525" alt="newplot" src="https://github.com/user-attachments/assets/7019da26-dcae-4cbe-8d42-e8fab83729eb" />
 
+<img width="1404" height="525" alt="newplot (1)" src="https://github.com/user-attachments/assets/85335137-a728-40b1-9212-16ae46f9ec77" />
 
 
 
