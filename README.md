@@ -59,8 +59,7 @@ La solución se basa en un pipeline modular de analítica y machine learning que
 - Top 10 Variables Más Relevantes para la Predicción
 - Tendencia Mensual de Demanda Promedio
 - Mapa Interactivo de Demanda por Ruta y Zona
-
-<img width="1600" height="900" alt="image" src="https://github.com/user-attachments/assets/0bfc74cc-7409-4f33-8d99-8bcfdcef9752" />
+- Comparación de Modelos con Pipeline
 
 <img width="1404" height="525" alt="newplot (2)" src="https://github.com/user-attachments/assets/1ea3eab5-92f9-4df6-a592-dfe5916baa6c" />
 
@@ -68,46 +67,14 @@ La solución se basa en un pipeline modular de analítica y machine learning que
 
 <img width="1404" height="525" alt="newplot (1)" src="https://github.com/user-attachments/assets/85335137-a728-40b1-9212-16ae46f9ec77" />
 
+<img width="841" height="551" alt="image" src="https://github.com/user-attachments/assets/e6e34963-5f8e-4bcc-993b-8032a9100d0b" />
+
+
 
 
 ## Tecnologías Utilizadas
-🐍 Lenguaje y Entorno
-
-Python 3.10
-
-Jupyter Notebook / Google Colab
-
-📊 Análisis y Procesamiento de Datos
-
-Pandas
-
-NumPy
-
-PySpark
-
-SQL
-
-🤖 Modelado Predictivo (Machine Learning)
-
-Scikit-learn
-
-XGBoost
-
-RandomForestRegressor
-
-Joblib
-
-🌍 Visualización y Arquitectura
-
-Plotly
-
-Folium
-
-Draw.io
-
-🧩 Control y Gestión del Proyecto
-
-Git / GitHub
+Python 3.10 ✔️ Jupyter Notebook / Google Colab ✔️ Pandas ✔️ NumPy ✔️ PySpark ✔️ SQL ✔️ Scikit-learn 
+✔️ XGBoost ✔️ RandomForestRegressor ✔️ Joblib ✔️ Plotly ✔️ Folium ✔️ Draw.io ✔️ Git / GitHub
 
 ## Resultados y Conclusiones
 ✔️ El modelo Random Forest alcanzó un R² de 0.93, con errores promedio menores a 50 pasajeros.
